@@ -87,7 +87,7 @@
 		<dependency>
 			<groupId>com.github.springtestdbunit</groupId>
 			<artifactId>spring-test-dbunit</artifactId>
-			<version>1.1.0</version>
+			<version>1.1.0-patched</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
