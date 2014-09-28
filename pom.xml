@@ -10,6 +10,11 @@
 			<id>clojars.org</id>
 			<url>http://clojars.org/repo</url>
 		</repository>
+		<repository>
+			<id>yeahmobi-releases</id>
+			<name>Repository for yeahmobi releases</name>
+			<url>http://172.20.0.77:8081/nexus/content/repositories/releases/</url>
+		</repository>
 	</repositories>
 	<distributionManagement>
 		<repository>
@@ -112,6 +117,12 @@
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
 			<version>2.3.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.181</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

@@ -11,6 +11,7 @@ genimage/
 # Compiled source #
 ###################
 .classpath
+.project
 *.com
 *.class
 *.dll
